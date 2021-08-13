@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.quote_box{
+    border:black 1px solid;
+    width: 80%;
+    text-align: center;
+    min-height: 100px;
+    font-size: 20px;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 25px;
+    background: black;
+    color: white;
+}
+.quote_box p{
+    margin-bottom: 15px;
+}
+.quote_box cite{
+    float: right;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color:skyblue ;
+    font-size: 15px;
+    font-weight: bold;
+}
+@media (min-width:1024px) {
+    .quote_box{
+        width: 50%;
+    }
+}
